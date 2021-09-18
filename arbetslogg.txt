@@ -1,0 +1,8 @@
+16/9 
+Jag har valt child theme till tema blossom-shop.
+i min sportbutik kommer det säljas adidas - och nikeskor. 
+
+18/9
+Det står inte specat i its learnig hur många produkter min butik behöver innehålla eller hur många produkter som ska vara variabla?
+jag har iaf ladda ner bilderna till mina produkter nu samt skapat kategorier i wordpress för nike och adidas samt underkategorier för dam - och herrskor till vardera kategori.
+Nästa steg blir att lägga upp produkterna i wordpress. Samt skapa mina attribut till de vaiabla prodkuterna, multival för färg och storlek. 
