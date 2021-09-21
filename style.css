@@ -24,6 +24,16 @@ a.btn-readmore {
 .button-wrap{
     position: absolute;
     top: 380px;
-    left: 110px;
+    left: 120px;
     display: block;
+}
+
+.site-content > .page-header{
+    background-image: url(img/jogging.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.site-content > .page-header .page-title {
+    color: white;
 }
