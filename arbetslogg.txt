@@ -6,3 +6,7 @@ i min sportbutik kommer det säljas adidas - och nikeskor.
 Det står inte specat i its learnig hur många produkter min butik behöver innehålla eller hur många produkter som ska vara variabla?
 jag har iaf ladda ner bilderna till mina produkter nu samt skapat kategorier i wordpress för nike och adidas samt underkategorier för dam - och herrskor till vardera kategori.
 Nästa steg blir att lägga upp produkterna i wordpress. Samt skapa mina attribut till de vaiabla prodkuterna, multival för färg och storlek. 
+
+20/9 varje gång jag försöker göra något med mina sidor eller skapar nya så dör all css och mitt child theme går sönder. vet ej hur jag löser detta..
+
+21/9 har kommit vidare med css för mitt child theme och lagt upp en bild för min hemsida. Samt skapat en knapp för att ta sig till webbutiken. Det hade varit bra med en genomgång i hur man jobbar med och ändrar sitt child theme så det är väldigt svårt och otydligt! 

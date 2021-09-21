@@ -3,3 +3,27 @@
  Template: blossom-shop
 */ 
 
+.woocommerce ul.products li.product a img {
+    height: 300px;
+    width: 300px;
+}
+
+a.btn-readmore {
+	display: block;
+    padding: 4px 30px;
+    color: white;
+    font-weight: 600;
+    font-size: large;
+    background-color: rgba(158, 171, 199, 0.432);
+    font-family: Verdana;
+}
+.btn-readmore:hover{
+    background-color: rgb(121, 128, 145);
+}
+
+.button-wrap{
+    position: absolute;
+    top: 380px;
+    left: 110px;
+    display: block;
+}
