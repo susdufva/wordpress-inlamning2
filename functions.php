@@ -18,3 +18,19 @@ function add_themes_features() {
     add_theme_support('post-thumbnail');
 }
 add_action('after_setup_theme', 'add_themes_features'); 
+
+function myname(){
+    echo '<p class="container"> Sida av Susanna Dufva </p>';
+}
+add_action('blossom_shop_after_footer', 'myname');
+
+function my_footer(){
+    echo "test";
+}
+add_action('wp_footer', 'my_footer');
+
+function change_price($price){
+    $price .= ' per package';
+    return $price;
+}
+add_filter('woocommerce_get_price_html', 'change_price');

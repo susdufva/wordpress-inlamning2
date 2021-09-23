@@ -10,3 +10,8 @@ Nästa steg blir att lägga upp produkterna i wordpress. Samt skapa mina attribu
 20/9 varje gång jag försöker göra något med mina sidor eller skapar nya så dör all css och mitt child theme går sönder. vet ej hur jag löser detta..
 
 21/9 har kommit vidare med css för mitt child theme och lagt upp en bild för min hemsida. Samt skapat en knapp för att ta sig till webbutiken. Det hade varit bra med en genomgång i hur man jobbar med och ändrar sitt child theme så det är väldigt svårt och otydligt! 
+
+22/9 idag har jag fixat custom post types. plugin mappen är dock inte med i mitt github repo. 
+
+23/9 idag har jag byggt ett plugin för remove action. Jag har krokat in mitt namn i footern och sen byggt ett plugin för att ta bort mitt namn på shop sidan och cart sidan. 
+Jag har även börjat kolla på att skriva över en woocommerce mallfil. Samt justera woocommerce via krok. 

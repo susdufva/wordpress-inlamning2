@@ -40,7 +40,9 @@
     */
     do_action( 'blossom_shop_after_footer' );
 
-    wp_footer(); ?>
+    wp_footer(); 
+    ?>
+
 
 </body>
 </html>

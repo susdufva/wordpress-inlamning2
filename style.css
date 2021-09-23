@@ -10,7 +10,7 @@
 
 a.btn-readmore {
 	display: block;
-    padding: 4px 30px;
+    padding: 5px 33px;
     color: white;
     font-weight: 600;
     font-size: large;
@@ -36,4 +36,15 @@ a.btn-readmore {
 
 .site-content > .page-header .page-title {
     color: white;
+}
+
+.site-banner .banner-caption {
+    background-image: url(img/landscape.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+p.container{
+    font-size: 15px;
+    font-weight: 600;
 }
