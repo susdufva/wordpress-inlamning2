@@ -14,4 +14,11 @@ Nästa steg blir att lägga upp produkterna i wordpress. Samt skapa mina attribu
 22/9 idag har jag fixat custom post types. plugin mappen är dock inte med i mitt github repo. 
 
 23/9 idag har jag byggt ett plugin för remove action. Jag har krokat in mitt namn i footern och sen byggt ett plugin för att ta bort mitt namn på shop sidan och cart sidan. 
-Jag har även börjat kolla på att skriva över en woocommerce mallfil. Samt justera woocommerce via krok. 
+Jag har även börjat kolla på att skriva över en woocommerce mallfil. Samt justerat woocommerce via krok. 
+
+27/9 Hoppas du ser i github att jag ändrade mitt woocommerce_checkout_field innan du gick igenom det på dagens lektion. I övrigt idag har jag jobbat lite på min varukorgs och kassa sida med att försöka ta bort sidebaren.
+
+28/9 idag har jag jobbat vidare på att försöka remove sidebar. jag har även börjar skapa mina butiker (custom post types)
+
+krok add_action('hook_name', 'function_name')
+jag vill ta bort sidebar på varukorg o kassa, kolla admin

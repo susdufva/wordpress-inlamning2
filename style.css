@@ -34,6 +34,12 @@ a.btn-readmore {
     background-size: cover;
 }
 
+.page .site-content > .page-header::before{
+    background-image: url(img/jogging.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 .site-content > .page-header .page-title {
     color: white;
 }
@@ -47,4 +53,22 @@ a.btn-readmore {
 p.container{
     font-size: 14px;
     font-weight: 600;
+}
+
+.woocommerce-page #primary {
+    width: 100%;
+}
+.woocommerce-page #secondary {
+    display: none;
+}
+
+.butik-img{
+    width: 70%;
+}
+
+.opening{
+    font-size: 1rem;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
 }

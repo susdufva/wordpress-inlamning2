@@ -44,4 +44,11 @@ function change_checkout_fields( $fields ) { //justerar woocommerce via krok
 }
 
 
+add_filter( 'woocommerce_billing_fields' , 'custom_override_checkout_fields' );
 
+function custom_override_checkout_fields(  $address_fields ) {
+     unset($address_fields['order']['billing_company']);
+     return $address_fields;
+}
+//ett försök att ta bort företagsnamn från kunduppgifterna i kassan. 
+//fugerar ej för tillfället men skapar inget fel så låter koden vara för att jobba vidare med sen. 
