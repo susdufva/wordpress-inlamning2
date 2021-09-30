@@ -18,7 +18,8 @@ Jag har även börjat kolla på att skriva över en woocommerce mallfil. Samt ju
 
 27/9 Hoppas du ser i github att jag ändrade mitt woocommerce_checkout_field innan du gick igenom det på dagens lektion. I övrigt idag har jag jobbat lite på min varukorgs och kassa sida med att försöka ta bort sidebaren.
 
-28/9 idag har jag jobbat vidare på att försöka remove sidebar. jag har även börjar skapa mina butiker (custom post types)
+28/9 idag har jag jobbat vidare på att försöka remove sidebar. jag har även börjar skapa mina butiker (custom post types) och fått dom displayad på min site. Sen börjar jag kolla på API
 
-krok add_action('hook_name', 'function_name')
-jag vill ta bort sidebar på varukorg o kassa, kolla admin
+30/9 idag kollar jag på att lösa API delen.
+
+//krok add_action('hook_name', 'function_name')

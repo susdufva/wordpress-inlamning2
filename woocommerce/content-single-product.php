@@ -32,6 +32,7 @@ if ( post_password_required() ) {
 }
 ?>
 <div id="product-<?php the_ID(); ?>" <?php wc_product_class( '', $product ); ?>>
+  <?php do_action( 'my_override' ); ?>
 
 	<?php
 	/**
@@ -75,4 +76,4 @@ if ( post_password_required() ) {
 
 <?php do_action( 'woocommerce_after_single_product' ); ?>
 
-<?php do_action( 'my_footer' ); ?>
+

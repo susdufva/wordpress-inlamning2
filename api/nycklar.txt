@@ -1,0 +1,2 @@
+kundnyckel: ck_2da6f3b59e5940e322c778fc9c488d6541f45c65
+kundhemlighet: cs_e8459d5495e7971d74d21436a609bb485fde887f

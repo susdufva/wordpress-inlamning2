@@ -24,13 +24,13 @@ function myname(){ //krokar in min namn i footer
 }
 add_action('blossom_shop_after_footer', 'myname');
 
-function my_footer(){ //överskrivning av mallfil
-    echo "test";
+function my_override(){ //överskrivning av mallfil
+    echo "<b>*</b>";
 }
-add_action('wp_footer', 'my_footer');
+add_action('woocommerce_before_single_product_summary' , 'my_override');
 
 function change_price($price){ //justerar woocommerce via krok 
-    $price .= ' :-';
+    $price .= ' / :-';
     return $price;
 }
 add_filter('woocommerce_get_price_html', 'change_price');

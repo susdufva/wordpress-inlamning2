@@ -21,9 +21,12 @@ a.btn-readmore {
     background-color: rgb(121, 128, 145);
 }
 
+.front-pic{
+    position: relative;
+}
 .button-wrap{
     position: absolute;
-    top: 380px;
+    top: 257px;
     left: 120px;
     display: block;
 }
@@ -71,4 +74,12 @@ p.container{
     margin-bottom: 60px;
     padding-bottom: 20px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+.main-navigation ul li a .menu-description {
+    display: none;
+}
+
+.edit-link .post-edit-link{
+    display: none;
 }
